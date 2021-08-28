@@ -5,7 +5,7 @@ class EmailForm extends Component {
     render() {
         return <div className='emailCard'>
             <label className='emailLabel'>Email</label>
-            <input className='emailInput' type='email' name='email' value='books@ioays.com.br'></input>
+            <input className='emailInput' type='email' name='email'></input>
         </div>
     }
 }
