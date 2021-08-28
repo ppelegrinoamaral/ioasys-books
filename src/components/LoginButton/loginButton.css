@@ -1,0 +1,11 @@
+.enterbutton {
+    width: 85px;
+    height: 36px;
+    border-style: none;
+    border-radius: 44px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #B22E6F;
+    background: #FFFFFF;
+}

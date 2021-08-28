@@ -3,6 +3,7 @@ import "./loginForm.css";
 import EmailForm from '../EmailForm/emailForm.js';
 import PasswordForm from '../PasswordForm/passwordForm.js';
 import Header from '../Header/header.js';
+import LoginButton from '../LoginButton/loginButton.js';
 
 class LoginForm extends Component {
     render() {
@@ -10,6 +11,7 @@ class LoginForm extends Component {
             <Header />
             <EmailForm />
             <PasswordForm />
+            <LoginButton />
         </div>
     }
 }
