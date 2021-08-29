@@ -1,0 +1,9 @@
+.formEnter {
+    width: 368px;
+    height: 224px;
+    margin: 20% 10% 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
