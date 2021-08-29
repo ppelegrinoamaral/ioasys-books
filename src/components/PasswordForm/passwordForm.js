@@ -5,11 +5,11 @@ import LoginButton from '../LoginButton/loginButton';
 class PasswordForm extends Component {
     render() {
         return <div className='passwordCard'>
-            <label className='passwordLabel'>Senha</label>
-            <div className='passwordLoginButton'>
-                <input className='passwordInput' type='password' ></input>
-                <LoginButton />
+            <div className='passwordInfos'>
+                <label className='passwordLabel'>Senha</label>
+                <input className='passwordInput' type='password' ></input>  
             </div>
+            <LoginButton />
         </div>
     }
 }
