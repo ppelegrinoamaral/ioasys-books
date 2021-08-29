@@ -1,6 +1,7 @@
 .errorCard {
     position: relative;
     margin-top: 24px;
+    visibility: hidden;
 }
   
 .triangle:after {
