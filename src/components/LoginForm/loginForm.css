@@ -7,3 +7,10 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width: 800px) {
+    .formEnter {
+        margin: 60% auto 0;
+    }
+}
+

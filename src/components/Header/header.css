@@ -7,6 +7,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 800px) {
+    .headerCard {
+        margin-bottom: 30px;
+    }
+}
+
 .headerLogo {
     width: 104.4px;
     height: 36px;

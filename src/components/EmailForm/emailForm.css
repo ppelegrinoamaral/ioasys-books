@@ -10,6 +10,13 @@
     padding: 0 10px;
 }
 
+@media (max-width: 800px) {
+    .emailCard {
+        width: 350px;
+        height: 60px;
+    }
+}
+
 .emailLabel {
     opacity: 0.5;
     font-size: 12px;

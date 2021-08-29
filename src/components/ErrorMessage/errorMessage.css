@@ -7,8 +7,8 @@
 .triangle:after {
     content: " ";
     position: absolute;
-    left: 200px;
-    top: -5px;
+    left: 80px;
+    top: -6px;
     border-top: none;
     border-right: 6px solid transparent;
     border-left: 6px solid transparent;
@@ -28,4 +28,10 @@
     line-height: 16px;
     font-weight: 700;
     margin-left: 10%;
+}
+
+@media (max-width: 800px) {
+    .errorAlert {
+        margin-left: 6%;
+    }
 }

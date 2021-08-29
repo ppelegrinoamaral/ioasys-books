@@ -3,5 +3,14 @@
 body {
   background-image: url(/src/assets/background-image.png);
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Heebo', sans-serif;
+}
+
+@media (max-width: 800px) {
+  body {
+      background-size: auto;
+      background-position-x: 40%;
+      background-position-y: 5%;
+  }
 }
