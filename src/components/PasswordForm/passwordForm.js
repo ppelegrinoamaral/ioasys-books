@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import './passwordForm.css';
 import LoginButton from '../LoginButton/loginButton';
+import { AuthContext } from "../../providers/auth";
 
-class PasswordForm extends Component {
-    render() {
-        return <div className='passwordCard'>
+function PasswordForm() {
+    const { login, setLogin } = React.useContext(AuthContext);
+    return (<div className='passwordCard'>
             <div className='passwordInfos'>
                 <label className='passwordLabel'>Senha</label>
-                <input className='passwordInput' type='password' ></input>  
+                <input className='passwordInput' type='password' onChange={(e) => setLogin({ email:login.email, password:e.target.value })} ></input>  
             </div>
             <LoginButton />
-        </div>
-    }
+        </div>)
 }
 
 export default PasswordForm;

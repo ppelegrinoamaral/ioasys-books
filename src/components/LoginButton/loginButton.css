@@ -9,3 +9,9 @@
     color: #B22E6F;
     background: #FFFFFF;
 }
+
+@media (max-width: 800px) {
+    .enterbutton {
+        margin-left: -20%;
+    }
+}

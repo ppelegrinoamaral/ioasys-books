@@ -1,0 +1,59 @@
+.card {
+    background: #ffffff;
+    width: 310px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .card {
+        max-width: 280px;
+        margin: 0 0 10% 0;
+    }
+}
+
+.cardImage {
+    height: 80%;
+    margin: 5%;
+}
+
+.cardInfos {
+    padding: 5% 0;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 3% 3% 0;
+}
+
+.cardTitle {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #333333;
+    margin: 0;
+}
+
+.cardAuthor {
+    font-size: 14px;
+    line-height: 2opx;
+    font-weight: 400;
+    color: #AB2680;
+    margin: 0;
+}
+
+.cardDatas {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 6px;
+}
+
+.cardPages, .cardEdit, .cardPublis {
+    margin: 0;
+}
